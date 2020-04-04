@@ -1,0 +1,82 @@
+Timestamp,Age,Gender,Country,Highest Education,Do you use a smartphone?,Do you wear a smartwatch?,Do you like wearing a watch?,"Is there anything you always wear, even in your sleep? (clothing included)",At what age would you like a fall monitoring system?,Are you scared about falling?,"Where are you concerned about falling the most? (example: stairs, bathroom, porch)",What type of fall monitoring system would you prefer?,Fall Location,Always-wear,Privacy - not visible to others,Measures other body vitals,Automatic Alerting - the system automatically sends an emergency 911 alert and informs your family if you've taken a fall and haven't moved for more than a few minutes,On-demand alerting - you initiate an emergency alert with the system when you need help,Style,Works both indoors and outdoors - the system monitors you in all environments,Interactive with buttons and lights - the system has a simple interface with just buttons and status lights,Interactive with a touchscreen display - the system has a full-fledged touchscreen interface,Always-on: the system is always-on and does not require recharging etc. ,"Injury reduction: the system also reduces the injury from the fall by using foam, inflatable airbags etc"
+3/18/2020 21:20:51,65,Female,USA,College,Yes,Yes,Yes,"Pajamas, underwear, earrings",75,Yes,Kitchen,On-body (something you wear),Kitchen,Underwear,4,4,5,5,5,3,3,3,5,3
+3/18/2020 21:26:32,64,Male,USA,College,Yes,No,Yes,Underpants,60,No,Stairs,On-body (something you wear),Stairs,Underwear,5,5,4,4,4,5,3,4,4,3
+3/18/2020 21:27:12,69,Male,USA,College,Yes,Yes,No,"Underwear, t-shirt",70,No,"Walking to the bathroom at night, getting into/out of the tub, uneven sidewalks",On-body (something you wear),Bathroom,Underwear,4,3,4,4,2,5,4,5,5,3
+3/18/2020 22:15:54,59,Female,India,College,Yes,Yes,No,Clothes,50,Maybe,Stairs,On-body (something you wear),Stairs,Underwear,3,5,5,5,4,5,4,5,5,5
+3/18/2020 22:36:17,58,Male,India,College,Yes,No,Yes,Watch,70,Yes,Bathroom,On-body (something you wear),Bathroom,Watch,4,5,5,5,4,5,5,5,5,4
+3/18/2020 22:46:59,68,Male,USA,College,Yes,No,Yes,Just clothing,80,No,Shower,On-body (something you wear),Bathroom,Underwear,2,4,5,5,3,5,4,2,5,2
+3/18/2020 22:50:38,67,Female,USA,College,Yes,No,Yes,Necklace,125,Yes,Stairs,On-body (something you wear),Stairs,Necklace,3,3,5,5,3,5,3,3,4,1
+3/18/2020 23:20:35,54,Female,India,College,Yes,Yes,Yes,Watch,50,Yes,Bathroom,On-body (something you wear),Bathroom,Watch,5,4,5,5,5,5,4,3,3,5
+3/19/2020 7:50:37,64,Female,USA,College,Yes,Yes,Yes,Underwear ,150,Yes,Stairs,On-body (something you wear),Stairs,Underwear,4,4,5,5,5,5,5,2,5,2
+3/19/2020 9:19:20,63,Female,USA,College,Yes,Yes,Maybe,"Pajamas, engagement ring",75,No,Stairs,On-body (something you wear),Stairs,Ring,3,4,5,3,3,4,4,4,4,2
+3/19/2020 11:32:42,68,Female,USA,College,Yes,Yes,Yes,Pajamas,150,No,Stairs,,Stairs,Underwear,,,,,,,,,,
+3/19/2020 11:38:25,62,Male,USA,College,Yes,No,Yes,no,125,No,stairs,"Off-body (mounted to a wall, vehicle etc)",Stairs,,5,3,5,5,4,5,3,3,3,3
+3/19/2020 12:59:54,70,Female,USA,College,Yes,No,Yes,No,80,No,Bathroom ,On-body (something you wear),Bathroom,,3,3,4,5,3,3,3,4,3,1
+3/19/2020 13:37:08,84,Male,USA,College,Yes,No,Yes,pajamas and FITBIT,125,Yes,"skiing, wet boat decks, on roof tops, tall ladders, recently while showering",On-body (something you wear),Bathroom,Watch,3,5,5,4,1,5,4,5,5,2
+3/19/2020 14:00:44,70,Male,USA,College,Yes,No,Yes,No,82,No,Bathroom,On-body (something you wear),Bathroom,,1,5,5,5,3,5,3,4,5,5
+3/19/2020 14:50:58,73,Male,USA,College,Yes,No,No,shorts/underpant,85,No,stairs,"Off-body (mounted to a wall, vehicle etc)",Stairs,Underwear,1,5,5,4,1,4,4,5,4,1
+3/19/2020 14:51:43,84,Male,USA,College,No,No,Maybe,Clothing ,90,No,Bathroom,On-body (something you wear),Bathroom,Underwear,1,4,5,4,3,5,4,3,5,2
+3/19/2020 15:00:11,64,Male,USA,College,Yes,No,Maybe,clothing,80,No,stairs,"Off-body (mounted to a wall, vehicle etc)",Stairs,Underwear,2,2,5,5,2,5,5,2,5,3
+3/19/2020 15:00:46,63,Female,USA,High School,Yes,No,Yes,necklace,80,Maybe,outside on concrete,On-body (something you wear),Outside,Necklace,1,3,5,5,2,5,3,3,5,3
+3/19/2020 15:01:47,84,Male,USA,College,No,No,Maybe,Clothing ,90,No,Bathroom,On-body (something you wear),Bathroom,Underwear,3,3,5,2,3,5,5,5,5,3
+3/19/2020 16:13:54,76,Male,USA,High School,Yes,No,Yes,"Wedding ring, watch, glasses",80,No,"Stairs, rocky areas, while holding grandson ",On-body (something you wear),Stairs,Ring,5,4,4,4,3,3,3,2,4,2
+3/19/2020 17:00:49,75,Female,USA,High School,Yes,No,No,"Cross necklace, glasses, undergarments ",70,Yes,"Steps, ramps, Tripping over rugs and cracks on the street ","Off-body (mounted to a wall, vehicle etc)",Stairs,Underwear,3,4,4,2,4,4,3,4,5,1
+3/19/2020 17:18:51,63,Female,USA,College,No,No,Yes,No,150,Yes,Stairs,On-body (something you wear),Stairs,,5,3,3,3,4,5,5,5,5,5
+3/19/2020 17:41:30,66,Female,USA,College,Yes,Yes,Yes,Earrings,150,Yes,Out running or hiking.,On-body (something you wear),Outside,Earrings,4,4,4,5,3,5,4,4,4,1
+3/19/2020 18:03:16,63,Female,USA,College,No,No,Yes,No,70,Yes,Stairs,On-body (something you wear),Stairs,,5,3,4,5,5,5,5,5,5,5
+3/19/2020 18:34:05,77,Female,USA,College,Yes,No,No,Earrings,85,No,Around small children and dogs,On-body (something you wear),Outside,Earrings,1,3,5,4,3,5,3,3,4,1
+3/19/2020 19:15:47,64,Male,Singapore,College,Yes,Yes,Maybe,Watch and clothes,Now,Maybe,Bathroom high flights of stairs,On-body (something you wear),Stairs,Watch,5,4,5,1,3,3,1,1,4,1
+3/19/2020 19:46:20,63,Male,USA,College,Yes,No,No,Underwear ,70,Maybe,Stairs,On-body (something you wear),Stairs,Underwear,2,5,4,5,4,5,5,2,4,4
+3/19/2020 20:26:14,68,Female,USA,College,Yes,No,Yes,Clothing,88,Maybe,"Stairs, bathroom",On-body (something you wear),Bathroom,Underwear,3,2,4,5,4,5,3,3,4,1
+3/19/2020 21:30:31,64,Female,USA ,College,Yes,No,Yes,"Pjs, watch (when I have one, my fit bit bromine!) ",65,Yes,"Stairs, slick floors, bumpy ground, icy/snowy parking lots, rocky beaches and lumpy forest trails",On-body (something you wear),Stairs,Underwear,5,5,3,5,3,5,3,4,3,2
+3/20/2020 1:13:57,65,Male,India,College,Yes,No,Yes,Watch,75,No,Bath Room,On-body (something you wear),Bathroom,Watch,5,4,5,5,4,5,4,4,5,5
+3/20/2020 2:22:59,69,Male,India,College,Yes,Yes,Yes,"Under garments, T shirt, pyjama and smart watch",65,Maybe,Bath room,"Off-body (mounted to a wall, vehicle etc)",Bathroom,Underwear,1,5,5,3,2,5,3,3,5,4
+3/20/2020 11:35:25,70,Female,USA,College,Yes,No,Yes,Lingerie ,75,Yes,Dog,"Off-body (mounted to a wall, vehicle etc)",Outside,Underwear,1,3,5,3,5,5,1,2,5,5
+3/20/2020 15:49:03,60,Female,USA,College,Yes,No,No,fitbit,150,No,,,,Watch,5,1,4,3,4,5,4,1,4,2
+3/20/2020 16:48:18,65,Male,USA,College,Yes,No,No,underwear,65,No,na,"Off-body (mounted to a wall, vehicle etc)",,Underwear,3,3,4,4,1,3,,,,
+3/21/2020 10:46:48,62,Female,USA,College,Yes,No,Maybe,Clothing,70,Maybe,Stairs and just tripping unexpectedly,On-body (something you wear),Stairs,Underwear,3,4,5,3,4,5,3,4,5,4
+3/21/2020 11:00:11,76,Female,USA,College,Yes,No,Maybe,Nightgown or PJ's,80,Maybe,Stairs,On-body (something you wear),Stairs,Underwear,3,3,5,5,4,4,4,4,5,4
+3/21/2020 11:00:43,62,Female,USA,College,Yes,No,Yes,"Rings, pajamas",150,Yes,Stairs ,,Stairs,Ring,4,4,3,4,3,4,4,3,4,2
+3/21/2020 11:07:09,66,Female,USA,College,Yes,No,Yes,Pajamas ,85,No,Stairs ,On-body (something you wear),Stairs,Underwear,5,5,5,5,5,5,5,5,5,3
+3/21/2020 11:17:39,56,Female,USA,College,Yes,No,Yes,Earring ,75,No,Stairs ,On-body (something you wear),Stairs,Earrings,5,3,5,5,4,5,4,4,4,3
+3/21/2020 11:57:56,67,Female,USA,College,Yes,No,Maybe,Wedding ring,70,Maybe,Stairs,"Off-body (mounted to a wall, vehicle etc)",Stairs,Ring,3,4,4,4,3,5,3,4,5,1
+3/21/2020 12:03:05,63,Female,India,Elementary School,No,No,Yes,bangle . Mangala sutra ,63,Yes,while waking  on the road ,On-body (something you wear),Outside,Necklace,5,5,4,4,5,5,4,5,4,5
+3/21/2020 12:05:35,55,Female,India,High School,Yes,Yes,Yes,"all the indian ladys  ware  like  thali, ect ",56,Yes,"while  traveling in the bus, walking, stairs, ",On-body (something you wear),Stairs,Necklace,5,5,5,5,5,5,5,5,5,5
+3/21/2020 12:34:46,55,Male,India,College,Yes,Yes,Yes,Nothing  except  ring in my finger ,55,Yes,"bathroom, stairs,","Off-body (mounted to a wall, vehicle etc)",Stairs,Ring,5,5,5,5,5,3,5,4,5,1
+3/21/2020 12:36:29,59,Female,India,Elementary School,No,No,Maybe,Nothing,60,Maybe,walking  traveling ,On-body (something you wear),Outside,,4,4,4,4,4,4,4,4,4,4
+3/21/2020 12:38:05,65,Male,India,Elementary School,Yes,Yes,Yes,,65,No,driving  two  wheeler,On-body (something you wear),Outside,,5,5,5,5,5,5,5,5,5,3
+3/21/2020 12:40:47,68,Male,India,College,Yes,Yes,Yes,watch ,65,Yes,while jogging ,On-body (something you wear),Outside,Watch,3,5,5,5,4,5,3,5,4,5
+3/21/2020 12:45:10,57,Male,India,College,Yes,Yes,Yes,na ,60,Yes,bathroom,On-body (something you wear),Bathroom,,5,5,5,5,5,5,5,5,5,5
+3/21/2020 13:17:32,56,Male,India,College,Yes,Yes,Yes,N/A,60,Yes,walking ,On-body (something you wear),Outside,,2,5,4,2,5,5,5,5,5,5
+3/21/2020 13:41:41,60,Female,India,High School,Yes,Yes,Yes,,60,Yes,walking ,"Off-body (mounted to a wall, vehicle etc)",Outside,,5,5,5,5,,5,5,5,5,5
+3/22/2020 1:05:13,63,Male,Singapore,College,Yes,Yes,Yes,"Shirt, Shorts",60,Maybe,"Heights e.g. ladder (but probably outside scope of this project)
+Bathroom (when floor is wet and you're alone) - had a bad freak accident in Singapore regarding this before (https://www.straitstimes.com/singapore/man-24-dies-after-shards-of-broken-glass-cut-his-throat-following-fall-in-shower)
+Later in life, stairs, in the bathroom","Off-body (mounted to a wall, vehicle etc)",Bathroom,Underwear,2,4,5,4,3,4,4,4,5,2
+3/22/2020 15:18:43,60,Female,USA,College,Yes,No,Yes,"Often, my watch.",70,Yes,Stairs    Bathroom ,On-body (something you wear),Stairs,Watch,4,5,5,5,5,5,5,5,5,4
+3/23/2020 11:23:59,64,Male,India,College,Yes,Yes,Yes,None,68,Yes,"Stairs, bathroom",On-body (something you wear),Bathroom,,5,4,4,5,3,5,5,5,5,5
+3/25/2020 8:43:58,68,Female,USA,College,Yes,No,Maybe,no,125,No,"not worried at this time. (However, I take care of disabled spouse and if I did fall and break a hip or lower extremity, that would be devastating for our household as I am the only caretaker/driver. Not worried about me per se but me as caretaker) ",On-body (something you wear),,,1,2,5,5,3,5,3,2,5,5
+3/25/2020 8:45:50,66,Male,USA,High School,No,No,No,  fall monitor button around the neck,65,Yes,bathroom and stairs,On-body (something you wear),Stairs,Fall Pendant,1,3,5,5,2,5,3,2,5,5
+3/25/2020 10:17:14,78,Female,India,Elementary School,No,No,Maybe,"Clothes,chain",55,Yes,"Stairs, bathroom ",On-body (something you wear),Bathroom,Underwear,1,5,5,5,3,5,3,3,5,5
+3/25/2020 22:46:26,68,Female,India,High School,Yes,No,No,"Basic Indian Ornaments  like Bangles , chain in addition to clothes ",65,Yes,Bathroom,On-body (something you wear),Bathroom,Necklace,2,4,5,3,2,4,4,4,5,5
+3/25/2020 23:48:21,81,Female,India,College,Yes,No,Maybe,Saree or Night Dress,150,Yes,Stairs and Bathroom,"Off-body (mounted to a wall, vehicle etc)",Stairs,Underwear,2,5,5,5,4,5,4,4,4,5
+3/26/2020 0:05:39,85,Male,India,College,Yes,No,Yes,Watch,83,Yes,Any walking,"Off-body (mounted to a wall, vehicle etc)",Outside,Watch,4,5,5,5,4,4,4,4,4,5
+3/26/2020 0:07:51,79,Female,India,High School,Yes,No,No,Only cloths,75,Maybe,Stairs,"Off-body (mounted to a wall, vehicle etc)",,Underwear,5,5,3,3,3,5,4,5,5,5
+3/26/2020 0:19:43,61,Male,India,College,Yes,No,Yes,Night dress,150,No,,,,Underwear,1,,1,2,2,3,3,3,3,3
+3/26/2020 0:55:44,63,Male,Singapore ,College,Yes,Yes,Yes,Yes,70,Maybe,Bath room,"Off-body (mounted to a wall, vehicle etc)",Bathroom,,4,4,5,4,3,4,4,4,4,5
+3/26/2020 1:24:17,72,Male,India,College,Yes,No,No,Question not clear,65,Yes,Bathroom,"Off-body (mounted to a wall, vehicle etc)",Bathroom,,1,5,5,1,1,5,5,1,5,5
+3/26/2020 2:43:04,61,Male,Malaysia ,College,Yes,No,Yes,Yes ,85,No,Stairs,On-body (something you wear),Stairs,,4,4,5,4,3,4,4,4,4,2
+3/26/2020 2:45:20,57,Male,India ,College,Yes,No,Maybe,Night dress,60,Yes,Bathroom & Stairs,On-body (something you wear),Bathroom,Underwear,4,5,5,5,5,5,5,5,5,5
+3/26/2020 4:05:20,59,Male,India ,College,Yes,No,Yes,Dress yes,65,Maybe,Dint know,On-body (something you wear),,Underwear,5,5,5,5,5,5,5,5,5,5
+3/26/2020 8:48:33,61,Male,India ,College,Yes,No,Yes,"Underwear,short&t-shirt",60,Yes,Bath room&Stairs,On-body (something you wear),Stairs,Underwear,5,5,5,5,5,5,5,5,5,5
+3/26/2020 9:20:17,60,Male,India ,College,Yes,No,Yes,Fitbit,60,No,Bath Room,On-body (something you wear),Bathroom,Watch,1,3,3,2,1,5,5,5,5,5
+3/26/2020 11:38:08,69,Male,India ,College,Yes,No,Yes,Nothing unusual except clothes,60,Maybe,Bathroom,On-body (something you wear),Bathroom,Underwear,2,3,2,4,4,4,4,4,4,4
+3/26/2020 11:39:25,69,Female,India ,College,No,No,No,Nothing unusual,50,Yes,Bathroom stairs,On-body (something you wear),Bathroom,Underwear,1,2,4,4,3,4,4,4,4,5
+3/26/2020 12:16:20,63,Male,India ,High School,Yes,No,No,,65,Yes,bathroom,On-body (something you wear),Bathroom,,4,5,4,4,4,4,4,2,4,5
+3/26/2020 12:17:54,60,Female,India ,High School,Yes,No,Yes,,60,Yes,bathroom,On-body (something you wear),Bathroom,,2,5,4,4,5,5,5,2,4,4
+3/27/2020 5:06:12,64,Male,India ,High School,No,No,Yes,Clothes,50,Yes,Bathroom,On-body (something you wear),Bathroom,Underwear,4,4,4,5,5,5,4,4,4,5
+3/27/2020 5:07:37,66,Female,India ,Elementary School,No,No,No,"Clothes,bangles ",55,Yes,Bathroom,On-body (something you wear),Bathroom,Underwear,3,5,5,5,3,5,3,3,5,5
+3/27/2020 5:09:35,70,Male,India ,High School,Yes,No,Yes,"Clothes, watch",60,Yes,Stairs,"Off-body (mounted to a wall, vehicle etc)",Stairs,Watch,4,5,5,5,4,5,5,5,5,5
+3/27/2020 5:10:34,63,Male,India ,High School,Yes,No,Yes,Clothes,60,Maybe,Stairs,On-body (something you wear),Stairs,Underwear,5,4,4,4,3,4,3,3,4,5
+3/27/2020 5:11:55,70,Female,India ,Elementary School,No,No,No,"Clothes, chain, anklet, bangles ",60,Yes,Bathroom,On-body (something you wear),Bathroom,Underwear,2,4,5,4,3,4,3,3,3,5
+3/29/2020 1:06:18,70,Male,India ,College,Yes,No,Yes,Baniyan and underwear ,85,No,Stairs ,On-body (something you wear),Stairs,Underwear,1,,5,5,,5,5,5,5,5
+4/2/2020 13:52:06,65,Female,India,College,Yes,No,Yes,,70,Maybe,Stairs,"Off-body (mounted to a wall, vehicle etc)",Stairs,,5,5,5,4,5,5,4,4,5,5

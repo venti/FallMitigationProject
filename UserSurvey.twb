@@ -1,0 +1,897 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20191.20.0214.2239                               -->
+<workbook source-build='2019.1.13 (20191.20.0214.2239)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Form Responses 1 (Fall Mitigation System Questionnaire (Responses))' inline='true' name='federated.0a5vavr0uufoti18d0vxx1dvwbcc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Fall Mitigation System Questionnaire (Responses)' name='google-sheets.04ivsed12t57ec105znd504ppa1a'>
+            <connection REDIRECT_URI='urn:ietf:wg:oauth:2.0:oob' SCOPE='email profile https://www.googleapis.com/auth/drive.readonly' class='google-sheets' cleaning='no' compat='no' dataRefreshTime='' filename='Fall Mitigation System Questionnaire (Responses)' googleSheetId='1sZhZ2Rjp2LkfcNs6_JyHhDpGeFlQHVooLscBjLJ5yk0' interpretationMode='8' mimeType='application/vnd.google-apps.spreadsheet' server='' server-oauth='' username='rureddy@gmail.com' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='google-sheets.04ivsed12t57ec105znd504ppa1a' name='Form Responses 1' table='[&apos;Form Responses 1$&apos;]' type='table'>
+          <columns gridOrigin='A1:W80:no:A1:W80:0' header='yes' outcome='2'>
+            <column datatype='datetime' name='Timestamp' ordinal='0' />
+            <column datatype='integer' name='Age' ordinal='1' />
+            <column datatype='string' name='Gender' ordinal='2' />
+            <column datatype='string' name='Country' ordinal='3' />
+            <column datatype='string' name='Highest Education' ordinal='4' />
+            <column datatype='string' name='Do you use a smartphone?' ordinal='5' />
+            <column datatype='string' name='Do you wear a smartwatch?' ordinal='6' />
+            <column datatype='string' name='Do you like wearing a watch?' ordinal='7' />
+            <column datatype='string' name='Is there anything you always wear, even in your sleep? (clothing included)' ordinal='8' />
+            <column datatype='integer' name='At what age would like a fall monitoring system?' ordinal='9' />
+            <column datatype='string' name='Are you scared about falling?' ordinal='10' />
+            <column datatype='string' name='Where are you concerned about falling the most? (example: stairs, bathroom, porch)' ordinal='11' />
+            <column datatype='string' name='What type of fall monitoring system would you prefer?' ordinal='12' />
+            <column datatype='integer' name='Privacy - not visible to others' ordinal='13' />
+            <column datatype='integer' name='Measures other body vitals' ordinal='14' />
+            <column datatype='integer' name='Automatic Alerting - the system automatically sends an emergency 911 alert and informs your family if you&apos;ve taken a fall and h' ordinal='15' />
+            <column datatype='integer' name='On-demand alerting - you initiate an emergency alert with the system when you need help' ordinal='16' />
+            <column datatype='integer' name='Style' ordinal='17' />
+            <column datatype='integer' name='Works both indoors and outdoors - the system monitors you in all environments' ordinal='18' />
+            <column datatype='integer' name='Interactive with buttons and lights - the system has a simple interface with just buttons and status lights' ordinal='19' />
+            <column datatype='integer' name='Interactive with a touchscreen display - the system has a full-fledged touchscreen interface' ordinal='20' />
+            <column datatype='integer' name='Always-on: the system is always-on and does not require recharging etc.' ordinal='21' />
+            <column datatype='integer' name='Injury reduction: the system also reduces the injury from the fall by using foam, inflatable airbags etc' ordinal='22' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Timestamp</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Timestamp]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Timestamp</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Highest Education</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Highest Education]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Highest Education</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Do you use a smartphone?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Do you use a smartphone?]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Do you use a smartphone?</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Do you wear a smartwatch?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Do you wear a smartwatch?]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Do you wear a smartwatch?</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Do you like wearing a watch?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Do you like wearing a watch?]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Do you like wearing a watch?</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Is there anything you always wear, even in your sleep? (clothing included)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Is there anything you always wear, even in your sleep? (clothing included)]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Is there anything you always wear, even in your sleep? (clothing included)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>At what age would like a fall monitoring system?</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[At what age would like a fall monitoring system?]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>At what age would like a fall monitoring system?</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Are you scared about falling?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Are you scared about falling?]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Are you scared about falling?</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Where are you concerned about falling the most? (example: stairs, bathroom, porch)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Where are you concerned about falling the most? (example: stairs, bathroom, porch)]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Where are you concerned about falling the most? (example: stairs, bathroom, porch)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>What type of fall monitoring system would you prefer?</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[What type of fall monitoring system would you prefer?]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>What type of fall monitoring system would you prefer?</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Privacy - not visible to others</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Privacy - not visible to others]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Privacy - not visible to others</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Measures other body vitals</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Measures other body vitals]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Measures other body vitals</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Automatic Alerting - the system automatically sends an emergency 911 alert and informs your family if you&apos;ve taken a fall and h</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Automatic Alerting - the system automatically sends an emergency 911 alert and informs your family if you&apos;ve taken a fall and h]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Automatic Alerting - the system automatically sends an emergency 911 alert and informs your family if you&apos;ve taken a fall and h</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>On-demand alerting - you initiate an emergency alert with the system when you need help</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[On-demand alerting - you initiate an emergency alert with the system when you need help]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>On-demand alerting - you initiate an emergency alert with the system when you need help</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Style</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Style]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Style</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Works both indoors and outdoors - the system monitors you in all environments</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Works both indoors and outdoors - the system monitors you in all environments]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Works both indoors and outdoors - the system monitors you in all environments</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Interactive with buttons and lights - the system has a simple interface with just buttons and status lights</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Interactive with buttons and lights - the system has a simple interface with just buttons and status lights]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Interactive with buttons and lights - the system has a simple interface with just buttons and status lights</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Interactive with a touchscreen display - the system has a full-fledged touchscreen interface</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Interactive with a touchscreen display - the system has a full-fledged touchscreen interface]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Interactive with a touchscreen display - the system has a full-fledged touchscreen interface</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Always-on: the system is always-on and does not require recharging etc.</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Always-on: the system is always-on and does not require recharging etc.]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Always-on: the system is always-on and does not require recharging etc.</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Injury reduction: the system also reduces the injury from the fall by using foam, inflatable airbags etc</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Injury reduction: the system also reduces the injury from the fall by using foam, inflatable airbags etc]</local-name>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias>Injury reduction: the system also reduces the injury from the fall by using foam, inflatable airbags etc</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Form Responses 1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>2</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:W80:no:A1:W80:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='None' caption='Age (bin)' datatype='integer' name='[Age (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='5' />
+      </column>
+      <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' name='[Always-on: the system is always-on and does not require recharging etc.]' role='dimension' type='ordinal' />
+      <column aggregation='None' caption='At what age would like a fall monitoring system? (bin)' datatype='integer' name='[At what age would like a fall monitoring system? (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='0' formula='[At what age would like a fall monitoring system?]' peg='0' size='5' />
+      </column>
+      <column aggregation='CountD' datatype='integer' name='[At what age would like a fall monitoring system?]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' name='[Automatic Alerting - the system automatically sends an emergency 911 alert and informs your family if you&apos;ve taken a fall and h]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column aggregation='None' caption='Injury reduction: the system also reduces the injury from the fall by using foam, inflatable airbags etc (bin)' datatype='integer' name='[Injury reduction: the system also reduces the injury from the fall by using foam, inflatable airbags etc (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='0' formula='[Injury reduction: the system also reduces the injury from the fall by using foam, inflatable airbags etc]' peg='0' size='1' />
+      </column>
+      <column aggregation='Sum' datatype='integer' name='[Injury reduction: the system also reduces the injury from the fall by using foam, inflatable airbags etc]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[Interactive with a touchscreen display - the system has a full-fledged touchscreen interface]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[Interactive with buttons and lights - the system has a simple interface with just buttons and status lights]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[Measures other body vitals]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column aggregation='Sum' datatype='integer' name='[On-demand alerting - you initiate an emergency alert with the system when you need help]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[Privacy - not visible to others]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[Style]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' datatype='integer' name='[Works both indoors and outdoors - the system monitors you in all environments]' role='dimension' type='ordinal' />
+      <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.77248' measure-ordering='alphabetic' measure-percentage='0.22752' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0a5vavr0uufoti18d0vxx1dvwbcc]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0a5vavr0uufoti18d0vxx1dvwbcc].[sum:Number of Records:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Form Responses 1 (Fall Mitigation System Questionnaire (Responses))' name='federated.0a5vavr0uufoti18d0vxx1dvwbcc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0a5vavr0uufoti18d0vxx1dvwbcc'>
+            <column datatype='string' name='[Are you scared about falling?]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Do you use a smartphone?]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Highest Education]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[Are you scared about falling?]' derivation='None' name='[none:Are you scared about falling?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Do you use a smartphone?]' derivation='None' name='[none:Do you use a smartphone?:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Highest Education]' derivation='None' name='[none:Highest Education:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0a5vavr0uufoti18d0vxx1dvwbcc].[sum:Number of Records:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0a5vavr0uufoti18d0vxx1dvwbcc].[none:Highest Education:nk] / ([federated.0a5vavr0uufoti18d0vxx1dvwbcc].[none:Do you use a smartphone?:nk] / [federated.0a5vavr0uufoti18d0vxx1dvwbcc].[none:Are you scared about falling?:nk]))</rows>
+        <cols>([federated.0a5vavr0uufoti18d0vxx1dvwbcc].[none:Gender:nk] / [federated.0a5vavr0uufoti18d0vxx1dvwbcc].[none:Country:nk])</cols>
+        <show-full-range>
+          <column>[federated.0a5vavr0uufoti18d0vxx1dvwbcc].[Age (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{0BEAE41E-4C51-492C-A0F4-EAD3EDCE8A8C}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Form Responses 1 (Fall Mitigation System Questionnaire (Responses))' name='federated.0a5vavr0uufoti18d0vxx1dvwbcc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0a5vavr0uufoti18d0vxx1dvwbcc'>
+            <column aggregation='None' caption='Age (bin)' datatype='integer' name='[Age (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[Age]' peg='0' size='5' />
+            </column>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[Age (bin)]' derivation='None' name='[none:Age (bin):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0a5vavr0uufoti18d0vxx1dvwbcc].[sum:Number of Records:qk]</rows>
+        <cols>[federated.0a5vavr0uufoti18d0vxx1dvwbcc].[none:Age (bin):ok]</cols>
+        <show-full-range>
+          <column>[federated.0a5vavr0uufoti18d0vxx1dvwbcc].[At what age would like a fall monitoring system? (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{C58E8C0B-794B-4BEF-AF37-173AABFF042E}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Form Responses 1 (Fall Mitigation System Questionnaire (Responses))' name='federated.0a5vavr0uufoti18d0vxx1dvwbcc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0a5vavr0uufoti18d0vxx1dvwbcc'>
+            <column aggregation='None' caption='At what age would like a fall monitoring system? (bin)' datatype='integer' name='[At what age would like a fall monitoring system? (bin)]' role='dimension' type='ordinal'>
+              <calculation class='bin' decimals='0' formula='[At what age would like a fall monitoring system?]' peg='0' size='5' />
+            </column>
+            <column aggregation='CountD' datatype='integer' name='[At what age would like a fall monitoring system?]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[At what age would like a fall monitoring system? (bin)]' derivation='None' name='[none:At what age would like a fall monitoring system? (bin):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0a5vavr0uufoti18d0vxx1dvwbcc].[none:At what age would like a fall monitoring system? (bin):ok]</rows>
+        <cols>[federated.0a5vavr0uufoti18d0vxx1dvwbcc].[sum:Number of Records:qk]</cols>
+      </table>
+      <simple-id uuid='{F5061DC9-B809-44FB-9A5E-6752DE149556}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Form Responses 1 (Fall Mitigation System Questionnaire (Responses))' name='federated.0a5vavr0uufoti18d0vxx1dvwbcc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0a5vavr0uufoti18d0vxx1dvwbcc'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column aggregation='CountD' datatype='integer' name='[At what age would like a fall monitoring system?]' role='measure' type='quantitative' />
+            <column-instance column='[Age]' derivation='None' name='[none:Age:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[At what age would like a fall monitoring system?]' derivation='None' name='[none:At what age would like a fall monitoring system?:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0a5vavr0uufoti18d0vxx1dvwbcc].[none:At what age would like a fall monitoring system?:qk]' field-type='quantitative' max='156' min='25' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0a5vavr0uufoti18d0vxx1dvwbcc].[none:At what age would like a fall monitoring system?:qk]</rows>
+        <cols>[federated.0a5vavr0uufoti18d0vxx1dvwbcc].[none:Age:qk]</cols>
+      </table>
+      <simple-id uuid='{26FB6663-8056-4AB1-B75C-3D7684AC30B1}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Form Responses 1 (Fall Mitigation System Questionnaire (Responses))' name='federated.0a5vavr0uufoti18d0vxx1dvwbcc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0a5vavr0uufoti18d0vxx1dvwbcc'>
+            <column aggregation='Sum' datatype='integer' name='[Interactive with a touchscreen display - the system has a full-fledged touchscreen interface]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[Interactive with a touchscreen display - the system has a full-fledged touchscreen interface]' derivation='None' name='[none:Interactive with a touchscreen display - the system has a full-fledged touchscreen interface:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0a5vavr0uufoti18d0vxx1dvwbcc].[sum:Number of Records:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0a5vavr0uufoti18d0vxx1dvwbcc].[none:Interactive with a touchscreen display - the system has a full-fledged touchscreen interface:ok]</rows>
+        <cols>[federated.0a5vavr0uufoti18d0vxx1dvwbcc].[sum:Number of Records:qk]</cols>
+        <show-full-range>
+          <column>[federated.0a5vavr0uufoti18d0vxx1dvwbcc].[Injury reduction: the system also reduces the injury from the fall by using foam, inflatable airbags etc (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{282A90E9-4EE3-4254-B1F2-E883D16473E8}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CB27D857-A922-4093-B7CD-6C590661A670}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2A0B67D3-53A5-4D7A-AF9C-9EB9BBDA1EC7}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8D0DA448-9ABA-4DB9-A64B-9AB84744E9D7}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5D170B73-0DAD-451A-8A4B-C07B7C13BE5D}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{C8A546F2-B812-4D4F-B16D-E1904A38CBA3}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 5' width='384'>
+      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
+      c+eOvvjiC3mep3feeUeHDx9WOp2uizd/iQCgDq1Zs0bd3d2anJzUxMTEM9vn5+eVzWbV3t6u
+      jo4OAoAVkc/nde3aNS0sLGj37t06cOCAWltbgx7rX0IAUHdWr16tvr4+LSwsaHBwUDMzM8vb
+      isWiTp8+rYmJCW3bto1r3mDFzM3N6fbt21q9erW2bt2qVCoV9Ej/Mj4aoe5EIhH19/fr9u3b
+      unLlimzb1tatWxWJRDQ2Nqbh4WGtWbNGO3furOkVGK9DqVTS5cuXn9pVtri4qKmpKRUKBZ05
+      c0Y3btyQ9N0B9v7+fnV1dQU1bl1ZXFzU3NycYrGYBgcHde3atRc+tre395nLltQCAoC6Y1mW
+      1q1bp2PHjikUCml0dFS3bt2SZVkqlUrq7u7WL3/5S/X29hq/AqhUKuncuXO6d+/e8s88z1O5
+      XJbrujp79uzyLrJEIqFUKkUAXpHjOFpaWlIul9O5c+de+k1z9+7d2rhxY80FgPsBoG65rqtc
+      LqeZmRndv39frutq3bp1Wrt2rdrb27krmL67Hs38/LzK5fIPPtayLLW1tRn/relVLS0taWFh
+      4aXnozzR1NRUk9cDIgCoa09ux1epVCR9t3soFAoZ/8YPvAoCAACGMnsHKQAYjAAAgKEIAAAY
+      igAAgKEIAAAYigAAgKEIAAAYigAAgKEIAAAYigAAgKEIAAAYigAAgKEIAAAYigAAgKEIAAAY
+      igAAgKEIAAAYigAAgKEIAAAYigAAgKEIAAAYigAAgKEIAAAYigAAgKEIAAAYigAAgKEIAAAY
+      igAAgKEIAAAYigAAgKEIAAAYigAAgKEIAAAYigAAgKEIAAAYigAAgKEIAAAYigAAgKEIAAAY
+      igAAgKEIAAAYigAAgKEIAAAYigAAgKEIAAAYigAAgKEIAAAYigAAgKEIAAAYigAAgKEIAAAY
+      igAAgKEIAAAYigAAgKEIAAAYigAAgKEIAAAY6v8DAEbZM3j+hfgAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
